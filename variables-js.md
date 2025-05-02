@@ -19,3 +19,9 @@ On peux aussi déclarer plusieurs variables dans une seule ligne. Exemple : `let
 **! Déclarer deux fois déclanche une erreur.** Une variable ne doit être déclarée qu'une seule fois, pour modifier une variable il ne faut donc pas la redéclarer comme ceci:
 `let message = "This"; let message = "That";` mais plutôt la modifié sans la redéclarer comme cela : `let message = "This"; message = "That";`. 
 
+### Nommage de variable 
+
+**Il existe des limitations pour le nommage d'une variable en JavaScript.**
+1. Le nom ne doit contenir uniquement des lettres, des chiffres, des symboles $ et _.
+2. Le premier caractère ne doit pas être un chiffre. 
+
