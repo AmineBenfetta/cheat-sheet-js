@@ -55,3 +55,5 @@ const person = { name: "John", age: 25 };
 person.age = 26; // Cela fonctionne
 person = { name: "Jane", age: 30 }; // Cela déclenche une erreur
 ```
+### Conclusion
+Les variables sont un élément fondamental de la programmation en JavaScript. Elles permettent de stocker et de manipuler des données de manière efficace. Il est important de bien comprendre les différents types de variables, leur portée et les bonnes pratiques de nommage pour écrire un code propre et maintenable.
