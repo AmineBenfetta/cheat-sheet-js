@@ -27,3 +27,16 @@ On peux aussi déclarer plusieurs variables dans une seule ligne. Exemple : `let
 3. Le nom ne doit pas être un mot réservé (ex: let, if, else, etc...).
 4. Le nom doit être significatif et décrire la valeur qu'il contient.
 5. Le nom doit être en camelCase (ex: firstName, lastName, etc...).
+
+### Types de variables
+Il existe plusieurs types de variables en JavaScript, les plus courants sont :
+1. **String** : Chaîne de caractères (ex: "Hello", 'World', etc...).
+2. **Number** : Nombre (ex: 1, 2, 3, etc...).
+3. **Boolean** : Valeur booléenne (ex: true, false).
+4. **Object** : Objet (ex: {name: "John", age: 25}).
+5. **Array** : Tableau (ex: [1, 2, 3]).
+6. **Null** : Valeur nulle (ex: null).
+7. **Undefined** : Valeur indéfinie (ex: undefined).
+8. **Symbol** : Symbole (ex: Symbol('description')).
+9. **BigInt** : Entier de grande taille (ex: 1234567890123456789012345678901234567890n).
+10. **Function** : Fonction (ex: function() { return "Hello"; }).
