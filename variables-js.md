@@ -40,3 +40,9 @@ Il existe plusieurs types de variables en JavaScript, les plus courants sont :
 8. **Symbol** : Symbole (ex: Symbol('description')).
 9. **BigInt** : Entier de grande taille (ex: 1234567890123456789012345678901234567890n).
 10. **Function** : Fonction (ex: function() { return "Hello"; }).
+
+### Portée des variables
+La portée d'une variable détermine où elle est accessible dans le code. Il existe trois types de portée en JavaScript :
+1. **Portée globale** : Une variable déclarée en dehors d'une fonction est accessible partout dans le code.
+2. **Portée de fonction** : Une variable déclarée à l'intérieur d'une fonction est accessible uniquement à l'intérieur de cette fonction.
+3. **Portée de bloc** : Une variable déclarée à l'intérieur d'un bloc (ex: if, for, etc...) est accessible uniquement à l'intérieur de ce bloc.
