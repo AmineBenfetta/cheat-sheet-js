@@ -46,3 +46,12 @@ La portée d'une variable détermine où elle est accessible dans le code. Il ex
 1. **Portée globale** : Une variable déclarée en dehors d'une fonction est accessible partout dans le code.
 2. **Portée de fonction** : Une variable déclarée à l'intérieur d'une fonction est accessible uniquement à l'intérieur de cette fonction.
 3. **Portée de bloc** : Une variable déclarée à l'intérieur d'un bloc (ex: if, for, etc...) est accessible uniquement à l'intérieur de ce bloc.
+
+### Constantes
+Une constante est une variable dont la valeur ne peut pas être modifiée une fois qu'elle a été assignée. Pour déclarer une constante, on utilise le mot-clé `const`. Exemple : `const PI = 3.14;`.
+Il est important de noter que les objets et les tableaux déclarés avec `const` peuvent toujours être modifiés, mais la référence à l'objet ou au tableau ne peut pas être changée. Exemple : 
+```javascript
+const person = { name: "John", age: 25 };
+person.age = 26; // Cela fonctionne
+person = { name: "Jane", age: 30 }; // Cela déclenche une erreur
+```
