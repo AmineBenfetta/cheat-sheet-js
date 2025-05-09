@@ -24,4 +24,6 @@ On peux aussi déclarer plusieurs variables dans une seule ligne. Exemple : `let
 **Il existe des limitations pour le nommage d'une variable en JavaScript.**
 1. Le nom ne doit contenir uniquement des lettres, des chiffres, des symboles $ et _.
 2. Le premier caractère ne doit pas être un chiffre. 
-
+3. Le nom ne doit pas être un mot réservé (ex: let, if, else, etc...).
+4. Le nom doit être significatif et décrire la valeur qu'il contient.
+5. Le nom doit être en camelCase (ex: firstName, lastName, etc...).
